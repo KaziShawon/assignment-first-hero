@@ -1,0 +1,155 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding-top: 0;
+    
+}
+.flexible-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+#top-font{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+}
+.stay-focused{
+    padding-left: 1%;
+    padding-top: 5px;
+    border-left: 2px solid;
+    border-color: tomato;
+    border-width: 3px;
+}
+h1 span{
+    color: indianred;
+}
+.top-left-corner{
+    width: 50%;
+    padding-left: 4%;
+    padding-top: 5px;
+    /* margin-bottom: -10%; */
+}
+.top-left-corner img{
+    width: 65%;
+    margin-top: -12%;
+    position: -ms-page;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( greenyellow, tomato);
+    color: darkred;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.link-button:hover{
+    background-image: linear-gradient(forestgreen, yellowgreen);
+    color: midnightblue;
+    cursor: pointer;
+}
+#paragraph-gap{
+    padding-top: 10px;
+}
+.second-section{
+    text-align: center;
+    margin-left: 20px;
+}
+.second-section-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.box-second-sectoin{
+    width: 320px;
+    box-shadow: 4px 4px 12px grey;
+    border-radius: 15px;
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.box-one-background{
+    background-color: hsl(78, 94%, 90%);
+}
+.box-two-background{
+    background-color: hsl(298, 74%, 90%);
+}
+.box-three-background{
+    background-color: hsl(485, 59%, 92%);
+}
+.box-second-sectoin img{
+    width: 50%;
+    margin-right: 150px;
+}
+#id-mid-header-font{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+    padding-top: 5px;
+    text-align: start;
+    margin-right: -250px;
+
+}
+.half-width img{
+    width: 50%;
+    margin-left: 12%;
+    position: -ms-page;
+}
+#blue-header{
+    color: indigo;
+}
+.contribution{
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-image: url(mission-2022-main/images/shapes/shape-1.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 50px;
+}
+.connection{
+    height: 80vh;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-image: url(mission-2022-main/images/shapes/shape-1.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position-x: 1050px;
+    background-position-y: 280px;
+
+}
+.community{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 55px;
+    text-align: start;
+    margin-right: -250px;
+
+}
+.community-pic img{
+    width: 35%;
+    /* padding-left: 4%; */
+    margin-top: 40px;
+    margin-left: 45%;
+}
+.mission{
+    height: 25vh;
+    background-color: black;
+}
+.mission-div{
+    padding-top: 1px;
+    text-align: center;
+    color: white;
+}
